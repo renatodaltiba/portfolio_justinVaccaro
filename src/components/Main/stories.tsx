@@ -1,4 +1,4 @@
-import { Story, Meta } from '@storybook/react'
+import { Meta, Story } from '@storybook/react'
 import Main from '.'
 
 export default {
@@ -15,5 +15,3 @@ Basic.args = {
   title: 'title basic',
   description: 'description basic'
 }
-
-export const Default: Story = (args) => <Main {...args} />
