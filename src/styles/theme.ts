@@ -16,7 +16,7 @@ export default {
     family:
       "Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     normal: 400,
-    bold: 600,
+    semibold: 600,
     sizes: {
       normal: '1.6rem',
       large: '2rem',
