@@ -10,7 +10,8 @@ export default {
     primary: '#FD5956',
     secondary: '#D8600F',
     white: '#fff',
-    black: '#000'
+    black: '#000',
+    gray: '#5F5F5F'
   },
   font: {
     family:
