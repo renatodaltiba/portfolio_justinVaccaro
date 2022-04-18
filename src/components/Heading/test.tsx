@@ -11,4 +11,12 @@ describe('<Heading />', () => {
       screen.getByRole('heading', { name: /Hello World/i })
     ).toBeInTheDocument()
   })
+
+  it('deve renderizar o componente com um ponto dar cor primaria', () => {
+    renderWithTheme(<Heading dots>Hello World</Heading>)
+
+    expect(screen.getByText('.')).toHaveStyle({
+      color: '#FD5956'
+    })
+  })
 })
