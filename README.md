@@ -14,7 +14,7 @@
 
 Criar uma landing page de perfil profissional como forma de aprendizagem e treinar as skills perante o uso de TypeScript, React e CSS.
 
-- [DEMO](Em breve)
+- [DEMO](https://justinvacaro-7p4z8wzea-renatodaltiba.vercel.app/)
 
 ## 📥 Instalação e execução
 
