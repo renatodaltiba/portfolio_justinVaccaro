@@ -2,12 +2,13 @@ import * as S from './styles'
 
 export type HeadingProps = {
   children: React.ReactNode
+  dots?: boolean
 }
 
-const Heading = ({ children }: HeadingProps) => (
+const Heading = ({ children, dots = false }: HeadingProps) => (
   <S.Wrapper>
     {children}
-    <span>.</span>
+    {!!dots && <span>.</span>}
   </S.Wrapper>
 )
 
